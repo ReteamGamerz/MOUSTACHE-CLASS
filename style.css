@@ -1,0 +1,36 @@
+h3 {
+    font-size: 25px !important; 
+}
+
+#Subscribe{
+    width: 200px;
+    height: 50px;
+    border: none;
+    color: white;
+    background-color: red;
+    border-radius: 0px;
+    box-shadow: inset 0 0 0 0 orange;
+    transition: ease-out 0.3s;
+    font: 2rem;
+    outline: none;
+}
+
+#Subscribe:hover {
+    box-shadow: inset 200px 0 0 0 orange;
+    cursor: pointer;
+}
+
+canvas {
+    animation-name: ripple;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes ripple {
+    from {
+        box-shadow: 1px 1px 38px orange;
+    } to {
+        box-shadow: 1px 1px 38px red;
+    }
+
+}
